@@ -1,68 +1,16 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
 body {
-    background-image: linear-gradient(to left, #000, #777);
+    margin: 0;
+    background: #DDDDDD;
 }
-
-.timeline {
-    position: relative;
-    max-width: 1200px;
+html, body{
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: inherit;
 }
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #CCC;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-@media screen and (max-width: 600px) {
-
-    /* Place the timelime to the left */
-    .timeline::after {
-        left: 31px;
-    }
-}
-
-.right {
-    left: 50%;
-}
-
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-}
-
-.right::after {
-    left: -16px;
-}
-
-
-.left {
-    left: 0;
-
-}
-
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+.modal-open{
+    overflow: hidden;
 }

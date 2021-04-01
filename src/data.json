@@ -1,0 +1,130 @@
+{
+    "name": "Douglas Alcantara de Araujo",
+    "position": "Full Stack Developer",
+    "location": "São Leopoldo, RS",
+    "email": "alaraujo.douglas@gmail.com",
+    "mobile": "+55 (51) 99579-4993",
+    "skills": [
+        {
+            "description": "Javascript",
+            "range": "100",
+            "iconName": "FaJs",
+            "iconLib": "FontAwesome"
+        },
+        {
+            "description": "HTML5",
+            "range": "100",
+            "iconName": "FaHtml5",
+            "iconLib": "FontAwesome"
+        },
+        {
+            "description": "CSS",
+            "range": "100",
+            "iconName": "FaCss3Alt",
+            "iconLib": "FontAwesome"
+        },
+        {
+            "description": "ABAP",
+            "range": "100",
+            "iconName": "SiSap",
+            "iconLib": "SimpleIcons"
+        },
+        {
+            "description": "Ionic",
+            "range": "100",
+            "iconName": "SiIonic",
+            "iconLib": "SimpleIcons"
+        },
+        {
+            "description": "ReactJS",
+            "range": "60",
+            "iconName": "SiReact",
+            "iconLib": "SimpleIcons"
+        },
+        {
+            "description": "React Native",
+            "range": "45",
+            "iconName": "SiReact",
+            "iconLib": "SimpleIcons"
+        },
+        {
+            "description": "Inglês",
+            "range": "90",
+            "iconName": "FaLanguage",
+            "iconLib": "FontAwesome"
+        }
+    ],
+    "experiences": [
+        {
+            "experiencePosition": "Programador ABAP Sênior",
+            "experienceCompany": "META",
+            "experiencePeriodInit": "Nov 2019",
+            "experiencePeriodEnd": "Mar 2021",
+            "descriptions": [
+                {
+                    "isImportant": true,
+                    "text": "Meta/SAP Globalization Services | São Leopoldo, RS"
+                },
+                {
+                    "isImportant": false,
+                    "text": "Desenvolvimento ABAP para atendimento das novas funcionalidades do produto de Cloud NFe da SAP, além de atuação no desenvolvimento da solução de eDocument para invoices da Argentina. Desenvolvimento através de Orientação à Objeto, com criação de Testes Unitários."
+                },
+                {
+                    "isImportant": true,
+                    "text": "Meta/SAP IBSO | São Leopoldo, RS"
+                },
+                {
+                    "isImportant": false,
+                    "text": "Desenvolvimento de Interfaces para replicação de dados através de serviço oData (SAP Gateway), além de desenvolvimento de classes de replicação de dados através de IDOCS. Desenvolvimento através de Orientação à Objeto, com criação de Testes Unitários."
+                }
+            ]
+        },
+        {
+            "experiencePosition": "ANALISTA DE DESENVOLVIMENTO SAP",
+            "experienceCompany": "Dux Innovation",
+            "experiencePeriodInit": "Mar 2015",
+            "experiencePeriodEnd": "Nov 2019",
+            "descriptions": [
+                {
+                    "isImportant": true,
+                    "text": "Dux Innovation| São Paulo, SP"
+                },
+                {
+                    "isImportant": false,
+                    "text": "Analista de desenvolvimento utilizando-se das tecnologias SAP ABAP, RFC, Orientação à Objeto, SAP HANA, SAP UI5, SAP Gateway, Fiori, XS artefacts, Smartforms, ABAP Reports, Ionic/Cordova, AngularJS, Bootstrap, jQuery e HTML5. Participação na implantação da Plataforma de Saúde e Segurança do Trabalho - GENU (Tecnologia SAP HANA), em diversos clientes, tais como: Klabin, Grupo Belagrícola, TAESA e Grupo Comporte. Assim como participação na implantação da Plataforma e-SST (Tecnologia SAP Fiori) em clientes como: Grupo Petrópolis e Suzano Papel e Celulose."
+                }
+            ]
+        }
+    ],
+    "graduations": [
+        {
+            "experiencePosition": "Tecnólogo | Análise e Desenvolvimento de Sistemas",
+            "experienceCompany": "",
+            "experiencePeriodInit": "2016",
+            "experiencePeriodEnd": "",
+            "descriptions": [
+                {
+                    "isImportant": true,
+                    "text": "UNINOVE - Universidade Nove de Julho, São Paulo/SP"
+                }
+            ]
+        },
+        {
+            "experiencePosition": "MBA | Desenvolvimento de Aplicações e Games para Dispositivos Móveis – Internet das Coisas",
+            "experienceCompany": "",
+            "experiencePeriodInit": "2018",
+            "experiencePeriodEnd": "",
+            "descriptions": [
+                {
+                    "isImportant": true,
+                    "text": "FIAP, São Paulo/SP"
+                },
+                {
+                    "isImportant": false,
+                    "text": "<li>Desenvolvimento de aplicações Android, iOS, Windows Phone.</li><li>Desenvolvimento de Games.</li><li>Node.js, Angular.js, HTML5, CSS3, JavaScript, Ajax/JQuery, Apache Cordova/Ionic.</li><li>Arquitetura em plataformas móveis inteligentes: Arduino, Raspberry Pi, entre outras tecnologias.</li></ul>",
+                    "html":true
+                }
+            ]
+        }
+    ]
+}

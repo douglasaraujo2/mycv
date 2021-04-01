@@ -3,14 +3,20 @@ import styled from "styled-components";
 export const FooterArea = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 16px;
+  justify-content: flex-end;
   align-items: center;
-  align-self: flex-end;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  background: #009688!important;
+  padding: 0.01em 16px;
   color: #fff;
-  font-size: 20px;
-  margin-bottom: 10px;
+  margin-left: 8px;
+`;
+
+export const Paragraph = styled.p``;
+
+export const IconsArea = styled.div`
+  display: flex;
+  a{
+    margin: 5px;
+  }
 `;
