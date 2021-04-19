@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Picture from '../../images/profile.jpg'
 
 export const ProfileMenu = styled.div`
     align-self: flex-start;
@@ -19,7 +18,7 @@ export const ProfileMenu = styled.div`
 
 export const ProfilePhoto = styled.div`
     position: relative;
-    background: url(${Picture});
+    background: url('images/profile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
