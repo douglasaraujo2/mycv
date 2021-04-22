@@ -18,7 +18,7 @@ export const ProfileMenu = styled.div`
 
 export const ProfilePhoto = styled.div`
     position: relative;
-    background: url('images/profile.jpg');
+    background: url('/assets/images/profile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

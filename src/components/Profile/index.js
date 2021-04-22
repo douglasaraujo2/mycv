@@ -10,7 +10,7 @@ import { BsFillBriefcaseFill, BsFillHouseDoorFill, BsFillEnvelopeFill } from 're
 import { FaAsterisk, FaWhatsapp } from 'react-icons/fa';
 
 
-const Page = ({ openModal, dados }) => {
+const Page = ({ openModal, dados, language, brazilLanguageCode }) => {
     let { name, position, location, email, mobile, skills } = dados;
     // eslint-disable-next-line 
     mobile = mobile.replace(/\%20/g, "");
@@ -47,7 +47,7 @@ const Page = ({ openModal, dados }) => {
                         </Clickable>
                         <Clickable onClick={() => { openPhoneLink() }} style>
                             <InformationText>
-                                <FaWhatsapp size={17} color="#009688" /> {mobile})}
+                                <FaWhatsapp size={17} color="#009688" /> {mobile}
                             </InformationText>
                         </Clickable>
                     </InformationContainer>
@@ -71,7 +71,12 @@ const Page = ({ openModal, dados }) => {
                                 return null;
                             }
                         })}
-                        <ShowMoreButton onClick={modalOpen}>Ver Mais</ShowMoreButton>
+                        {language === brazilLanguageCode &&
+                            <ShowMoreButton onClick={modalOpen}>Ver Mais</ShowMoreButton>
+                        }
+                        {language !== brazilLanguageCode &&
+                            <ShowMoreButton onClick={modalOpen}>See more</ShowMoreButton>
+                        }
                     </SkillContainer>
                 </ProfileContainer>
             </ProfileMenu>

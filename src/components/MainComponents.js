@@ -32,6 +32,7 @@ export const ErrorMessage = styled.div`
 
 
 export const Button = styled.button`
+  cursor: pointer;
   display: flex;
   justify-content: center;
   border: 1px solid transparent;
@@ -44,7 +45,7 @@ export const Button = styled.button`
   &.default {
     color: #000;
     background-color: #fff;
-    border-color: #fff;
+    border-color: #000;
   }
 
   &.primary{

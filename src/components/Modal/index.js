@@ -43,7 +43,7 @@ export default function ModalPage({ id, showModal, handleModal, buttons, title, 
                                     {children}
                                 </ModalBody>
                                 <ModalFooter>
-                                    <Button className="default" onClick={() => handleModal(false)}>Fechar</Button>
+                                    <Button className="default" onClick={() => handleModal(false)}>Close</Button>
                                 </ModalFooter>
                             </ModalContent>
                         </ModalDialog>

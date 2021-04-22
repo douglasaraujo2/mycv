@@ -48,7 +48,7 @@
             "iconLib": "SimpleIcons"
         },
         {
-            "description": "English",
+            "description": "Inglês",
             "range": "90",
             "iconName": "FaLanguage",
             "iconLib": "FontAwesome"
@@ -56,31 +56,31 @@
     ],
     "experiences": [
         {
-            "experiencePosition": "Senior ABAP Developer",
-            "experienceCompany": "META | São Leopoldo, RS",
+            "experiencePosition": "Programador ABAP Sênior",
+            "experienceCompany": "META",
             "experiencePeriodInit": "Nov 2019",
             "experiencePeriodEnd": "Mar 2021",
             "descriptions": [
                 {
                     "isImportant": true,
-                    "text": "3rd party at SAP Labs Latin America (SAP Globalization Services - Brazil outbound Cloud Fiscal Note team)"
+                    "text": "Meta/SAP Globalization Services | São Leopoldo, RS"
                 },
                 {
                     "isImportant": false,
-                    "text": "ABAP Development to support new Cloud NFe Product Features of SAP, besides ABAP development on the eDocument solution for Argentina invoices. Development through ABAP OO, with unit tests."
+                    "text": "Desenvolvimento ABAP para atendimento das novas funcionalidades do produto de Cloud NFe da SAP, além de atuação no desenvolvimento da solução de eDocument para invoices da Argentina. Desenvolvimento através de Orientação à Objeto, com criação de Testes Unitários."
                 },
                 {
                     "isImportant": true,
-                    "text": "3rd party at SAP Labs Latin America (SAP IBSO team)"
+                    "text": "Meta/SAP IBSO | São Leopoldo, RS"
                 },
                 {
                     "isImportant": false,
-                    "text": "Interface development to replicate data through oData services (SAP Gateway), besides of class development to replicate data through IDOCS. Development through ABAP OO, with unit tests."
+                    "text": "Desenvolvimento de Interfaces para replicação de dados através de serviço oData (SAP Gateway), além de desenvolvimento de classes de replicação de dados através de IDOCS. Desenvolvimento através de Orientação à Objeto, com criação de Testes Unitários."
                 }
             ]
         },
         {
-            "experiencePosition": "SAP Development Analyst",
+            "experiencePosition": "ANALISTA DE DESENVOLVIMENTO SAP",
             "experienceCompany": "Dux Innovation",
             "experiencePeriodInit": "Mar 2015",
             "experiencePeriodEnd": "Nov 2019",
@@ -91,14 +91,14 @@
                 },
                 {
                     "isImportant": false,
-                    "text": "Development Analyst, Using SAP Technologies, as SAP UI5, SAP ABAP, SAP HANA, SAP NW GATEWAY and other technologies such as Bootstrap, jQuery and HTML5. Worked in GENU Health and Workplace Safety (SAP Hana Technology) implementation, in many customers, such as Klabin, Grupo Belagrícola, TAESA and Grupo Comporte. Also worked in e-SST Platform (SAP Fiori Technology) in customerssuch as Grupo Petrópolis and Suzano Papel e Celulose. Working also with eSocial mapping classes for EH&S events."
+                    "text": "Analista de desenvolvimento utilizando-se das tecnologias SAP ABAP, RFC, Orientação à Objeto, SAP HANA, SAP UI5, SAP Gateway, Fiori, XS artefacts, Smartforms, ABAP Reports, Ionic/Cordova, AngularJS, Bootstrap, jQuery e HTML5. Participação na implantação da Plataforma de Saúde e Segurança do Trabalho - GENU (Tecnologia SAP HANA), em diversos clientes, tais como: Klabin, Grupo Belagrícola, TAESA e Grupo Comporte. Assim como participação na implantação da Plataforma e-SST (Tecnologia SAP Fiori) em clientes como: Grupo Petrópolis e Suzano Papel e Celulose."
                 }
             ]
         }
     ],
     "graduations": [
         {
-            "experiencePosition": "Technologist | System analysis and development",
+            "experiencePosition": "Tecnólogo | Análise e Desenvolvimento de Sistemas",
             "experienceCompany": "",
             "experiencePeriodInit": "2016",
             "experiencePeriodEnd": "",
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "experiencePosition": "MBA | Games and Application development to mobiles devices – IoT",
+            "experiencePosition": "MBA | Desenvolvimento de Aplicações e Games para Dispositivos Móveis – Internet das Coisas",
             "experienceCompany": "",
             "experiencePeriodInit": "2018",
             "experiencePeriodEnd": "",
@@ -121,7 +121,7 @@
                 },
                 {
                     "isImportant": false,
-                    "text": "<li>Application development: Android, iOS, Windows Phone</li><li>Games Development</li><li>Node.js, Angular.js, HTML5, CSS3, JavaScript, Ajax/JQuery, Apache Cordova/Ionic</li><li>Architecture on smart mobile platforms: Arduino, Raspberry Pi, among others technologies.</li></ul>",
+                    "text": "<li>Desenvolvimento de aplicações Android, iOS, Windows Phone.</li><li>Desenvolvimento de Games.</li><li>Node.js, Angular.js, HTML5, CSS3, JavaScript, Ajax/JQuery, Apache Cordova/Ionic.</li><li>Arquitetura em plataformas móveis inteligentes: Arduino, Raspberry Pi, entre outras tecnologias.</li></ul>",
                     "html":true
                 }
             ]

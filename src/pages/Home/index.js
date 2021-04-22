@@ -13,7 +13,7 @@ import WorkHistory from "../../components/WorkHistory";
 
 
 
-const Page = ({ dados }) => {
+const Page = ({ dados, language, brazilLanguageCode }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const handleModalOpen = (value) => {
         setIsModalOpen(value);
@@ -36,13 +36,25 @@ const Page = ({ dados }) => {
                 />
             }
             <PageArea>
-                <Profile openModal={handleModalOpen} dados={dados} />
+                <Profile 
+                    openModal={handleModalOpen} 
+                    dados={dados} 
+                    language={language}
+                    brazilLanguageCode={brazilLanguageCode}/>
                 <MainContent>
                     <InformationContainer>
                         <BsFillBriefcaseFill size={26} color="#009688" />
-                        <InformationTitle>
-                            Histórico Profissional
-                        </InformationTitle>
+                        {language === brazilLanguageCode &&
+                            <InformationTitle>
+                                Histórico Profissional
+                            </InformationTitle>
+                        }
+                        {language !== brazilLanguageCode &&
+                            <InformationTitle>
+                                Work History
+                            </InformationTitle>
+                        }
+
                     </InformationContainer>
                     {dados.experiences.map((data, index) => {
                         return (
@@ -58,13 +70,21 @@ const Page = ({ dados }) => {
 
                     <InformationContainer>
                         <FaCertificate size={26} color="#009688" />
-                        <InformationTitle>
-                            Formação Acadêmica
-                        </InformationTitle>
+                        {language === brazilLanguageCode &&
+                            <InformationTitle>
+                                 Formação Acadêmica
+                            </InformationTitle>
+                        }
+                        {language !== brazilLanguageCode &&
+                            <InformationTitle>
+                                Education
+                            </InformationTitle>
+                        }
                     </InformationContainer>
-                    {dados.graduations.map((experience) => {
+                    {dados.graduations.map((experience, index) => {
                         return (
                             <WorkHistory
+                                key={index}
                                 experiencePosition={experience.experiencePosition}
                                 experienceCompany={experience.experienceCompany}
                                 experiencePeriodInit={experience.experiencePeriodInit}
@@ -74,7 +94,7 @@ const Page = ({ dados }) => {
                     })}
                 </MainContent>
             </PageArea>
-            <Footer />
+            <Footer language={language} brazilLanguageCode={brazilLanguageCode}/>
         </>
     )
 };
